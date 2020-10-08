@@ -1,0 +1,61 @@
+@font-face {
+  font-family: caveatBold;
+  src: url(font/Caveat-Bold.ttf);
+}
+
+@font-face {
+  font-family: caveatRegular;
+  src: url(font/Caveat-Regular.ttf);
+}
+
+img {
+  width: 300px;
+}
+body {
+  background-color: #011633;
+}
+.space_2 {
+  padding-top: 2rem;
+}
+.space_3 {
+  padding-top: 3rem;
+}
+.kotak_pesan {
+  height: 50px;
+  text-align: center;
+  font-family: caveatRegular;
+  font-size: 2rem;
+  padding: 0 15px;
+}
+.judul {
+  color: #f36e3a;
+  font-family: caveatBold;
+  font-size: 4rem;
+  text-align: center;
+}
+.instruksi {
+  color: #fafafa;
+  font-family: caveatRegular;
+  font-size: 2rem;
+  text-align: center;
+}
+.highlight {
+  color: #f7df1d;
+  font-family: caveatRegular;
+  text-align: center;
+}
+.player_name {
+  font-size: 1.9rem;
+}
+.invisible {
+  display: none;
+}
+.menang {
+  background-color: #17f856;
+}
+.kalah {
+  background-color: #f3473a;
+}
+.seri {
+  background-color: #f7df1d;
+}
